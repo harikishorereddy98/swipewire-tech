@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Hover & Cursor</title>
+    <link rel="stylesheet" href="/index1.css">
+    <script src="https://kit.fontawesome.com/c79828f7bb.js" crossorigin="anonymous"></script>
+    
+    <style>
+        body{
+    background-image: url('https://bxslider.com/assets/images/coffee3.jpg');
+    /* display: block; */
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+i.fa {
+    font-size: 50px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.fa:hover {
+  color: darkblue;
+}
+.cards{
+    box-shadow: rgba(76, 80, 81, 0.516) -1px 3px 5px;
+    display: flex;
+    /* align-content: center; */
+    /* flex-wrap: wrap; */
+    border-radius: 12px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom-bar{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    background-color: #fff;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 0 2% 2%;
+    border-top: #fff ;
+    border-radius: 30px 30px 0 0;
+}
+
+.text{
+    font-size: 20px;
+    font-weight: 600;
+}
+.inner_card1{
+    padding-bottom: 5px;
+    display: flex;
+    font-size: 6px;
+    gap: 5px;
+}
+
+.inner_card-3{
+    padding-left: 30px;
+    padding-bottom: 35px;
+}
+.inner_card  img{
+    border-radius: 6px;
+}
+.fa-star:hover {
+  color: goldenrod;
+}
+.fa-heart:hover {
+  color: red;
+}
+    </style>
+</head>
+
+<body>
+    <div class="background">
+        <div class="bottom-bar">
+            <h1>Categories</h1>
+            <div class="cards">
+                <div class="inner_card">
+                    <img src="https://images.pexels.com/photos/1891234/pexels-photo-1891234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" width="100px" />
+                </div>
+                <div class="inner_card">
+                    <div class="inner_card1">
+                        <span class="text">new-york</span>
+                    </div>
+                    <div class="inner_card1">
+                        <div class="inner_card2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="inner_card2">
+                            <span>1,897 followers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner_card-3">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="inner_card">
+                    <img src="https://images.pexels.com/photos/1891234/pexels-photo-1891234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" width="100px" />
+                </div>
+                <div class="inner_card">
+                    <div class="inner_card1">
+                        <span class="text">new-york</span>
+                    </div>
+                    <div class="inner_card1">
+                        <div class="inner_card2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="inner_card2">
+                            <span>1,897 followers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner_card-3">
+                    <i class="fa-regular fa-heart
+                    ."></i>
+                </div>
+            </div>
+
+            <div class="cards">
+                <div class="inner_card">
+                    <img src="https://images.pexels.com/photos/1891234/pexels-photo-1891234.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image" width="100px" />
+                </div>
+                <div class="inner_card">
+                    <div class="inner_card1">
+                        <span class="text">new-york</span>
+                    </div>
+                    <div class="inner_card1">
+                        <div class="inner_card2">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <div class="inner_card2">
+                            <span>1,897 followers</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="inner_card-3">
+                    <i class="fa-regular fa-heart"></i>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
